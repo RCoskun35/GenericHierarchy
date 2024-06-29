@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>GenericHierarchyService</PackageId>
+    <Title>Lists all parents and children of tree structures</Title>
+    <Version>1.0.0</Version>
+    <Authors>Rıdvan Coşkun</Authors>
+    <Company>Rıdvan Coşkun</Company>
+    <Description>Lists all parents and children of tree structures</Description>
+    <PackageIcon>tree-icon.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Desktop\tree-icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
